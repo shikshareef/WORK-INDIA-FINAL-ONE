@@ -1,4 +1,4 @@
-const Venue = require('./zomato.admin.model'); // Adjust the path as needed
+const Venue = require('./zomato.admin.model'); 
 
 // Create a new venue
 exports.create = function(req, res) {
@@ -17,5 +17,5 @@ exports.create = function(req, res) {
     });
 };
 
-// Add more methods for managing venues (e.g., get, update, delete) as needed
+
 
